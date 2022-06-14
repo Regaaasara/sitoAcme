@@ -90,6 +90,7 @@ body {
     background-color: rgb(246, 143, 0, 0.9);
     height: auto;
     border: 3px;
+    border: 2px solid white;
     color: white;
     text-align: center;
     padding: 20px 30px;
