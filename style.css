@@ -15,6 +15,7 @@ body {
     width: 100%;
     color: white;
     float: left;
+    text-align: center;
     position: fixed;
     height: auto;
 }
