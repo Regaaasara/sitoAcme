@@ -293,6 +293,7 @@ footer {
     height: 200px;
     width: 90px;
     bottom: -120px;
+    right: 15px;
     padding: 5px;
     color: rgb(243, 146, 0);
     display: block;
