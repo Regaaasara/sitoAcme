@@ -19,6 +19,10 @@ body {
     height: auto;
 }
 
+#offerta {
+  size: 100%;
+}
+
 .lingue {
     float: left;
     width: 50px;
