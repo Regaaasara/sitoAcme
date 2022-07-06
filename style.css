@@ -28,11 +28,8 @@ body {
   }
 
 #offerta{
-   position:absolute;
-   top:50%;
-   left:50%;
-   margin-top:-25px;
-   margin-left:-25px;
+  display: block;
+  text-align: center;
 }
 
 .lingue {
