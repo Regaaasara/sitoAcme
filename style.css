@@ -21,7 +21,7 @@ body {
 #logo {
   max-width: fit-content;
   padding: 100px 15px;
-  margin: auto auto 20px auto;
+  margin: auto 20px auto auto;
   height: 600px;
   display: block;
   text-align: center;  
