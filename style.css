@@ -9,7 +9,7 @@ body {
 }
 
 #barranavigazione {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8) !important;
     border-bottom: 4px solid rgb(243, 146, 0);
     padding-right: 30px;
     padding-top: 15px;
@@ -17,6 +17,7 @@ body {
     color: white;
     position: fixed;
     height: auto;
+    z-index: 1;
 }
 
 #logo {
