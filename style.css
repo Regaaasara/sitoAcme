@@ -11,7 +11,8 @@ body {
 #barranavigazione {
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 4px solid rgb(243, 146, 0);
-    padding: 1% 0% 0.5% 5%;
+    padding-right: 30px;
+    padding-top: 15px;
     width: 100%;
     color: white;
     position: fixed;
@@ -29,8 +30,8 @@ body {
 
 .lingue {
     float: left;
-    width: 50px;
-    height: 20px;
+    width: 60px;
+    height: 30px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -39,6 +40,7 @@ body {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 }
 
 @media screen and (max-width: 600px) {
@@ -71,6 +73,12 @@ body {
     max-width: fit-content;
     margin: 0 auto;
 
+}
+
+.spazio2 {
+    height: 20px;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 .opendayonline {
@@ -331,4 +339,73 @@ footer {
     padding: 1px 15px 15px 15px;
     border: 2px solid rgb(90, 162, 196);
     z-index: 1;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: rgba(243, 146, 0, 0.9);
+  height: 200px;
+}
+
+/* Slides */
+.slide {
+  display: none;
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(243, 146, 0, 0.9);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
 }
