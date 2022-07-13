@@ -29,7 +29,7 @@ body {
   }
 
 .boxlogo {
-  height: 500px;
+  height: 550px;
 }
 
 .lingue {
@@ -76,11 +76,16 @@ body {
     height: 500px;
     max-width: fit-content;
     margin: 0 auto;
-
 }
 
 .spazio2 {
     height: 20px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.spazio3 {
+    height: 40px;
     max-width: fit-content;
     margin: 0 auto;
 }
