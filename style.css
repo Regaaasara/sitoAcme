@@ -302,18 +302,19 @@ footer {
 
 #bottone {
   position: fixed;
+  height: 200px;
   width: 100px;
   cursor: pointer;
   z-index: 1;
-  background-color: rgb(179, 247, 232);
-  color: rgb(0, 0, 0);
+  color: rgb(243, 146, 0);
   border: 2px solid rgb(64, 151, 147);
   border-radius: 10px;
-  padding: 4px 20px;
+  padding: 5px;
   margin: 5px;
-  display: none;
-  bottom: 5px;
-  left: 65px;
+  display: block;
+  bottom: -120px;
+  left: 0px;
+  text-align: center;
 }
 
 #cookie{
@@ -331,29 +332,6 @@ footer {
   margin-left: 160px;
   padding: 0px;
   cursor: pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#cookie1 {
-    height: 200px;
-    width: 90px;
-    bottom: -120px;
-    padding: 5px;
-    color: rgb(243, 146, 0);
-    display: block;
-    z-index: 1;
-    position: fixed;
-    text-align: center;
 }
 
 .top {
