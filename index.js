@@ -7,11 +7,11 @@ function scrollToTop() {
 //cookie
 
 function hideCookie() {
-      let cookie = document.querySelector('#innercookie');
+      let cookie = document.querySelector('#cookiebox');
       cookie.style = "display:none;";
     }
 function showCookie() {
-      let cookie = document.querySelector('#innercookie');
+      let cookie = document.querySelector('#cookiebox');
       cookie.style = "display:block;";
     }
 
