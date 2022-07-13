@@ -412,9 +412,10 @@ footer {
 }
 
 #chiude{
-  width: 15px;
+  height: 200px;
+  width: 90px;
+  padding: 5px;
   margin-left: 250px;
-  padding: 0px;
   cursor: pointer;
 }
 
@@ -429,5 +430,5 @@ footer {
   width: 300px;
   height: 50px;
   cursor:pointer;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 20px black;
 }
