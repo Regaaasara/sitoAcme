@@ -296,44 +296,6 @@ footer {
     font-size: 13px;
 }
 
-
-
-
-
-#bottone {
-  position: fixed;
-  height: 200px;
-  width: 100px;
-  cursor: pointer;
-  z-index: 1;
-  color: rgb(243, 146, 0);
-  border: 2px solid rgb(64, 151, 147);
-  border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  display: block;
-  bottom: -120px;
-  left: 0px;
-  text-align: center;
-}
-
-#cookie{
-  color: white;
-  font-size: 10px;
-  background-color: black;
-  width: 200px;
-  margin-left: 50px;
-  padding: 20px;
-  display: none;
-}
-
-#chiude{
-  font-size: 15px;
-  margin-left: 160px;
-  padding: 0px;
-  cursor: pointer;
-}
-
 .top {
     height: 200px;
     width: 90px;
@@ -425,4 +387,31 @@ footer {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+#bottone {
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 60;
+}
+
+#cookie{
+  color: white;
+  font-size: 10px;
+  background-color: black;
+  width: 200px;
+  margin-left: 50px;
+  padding: 20px;
+  display: none;
+}
+
+#chiude{
+  font-size: 15px;
+  margin-left: 160px;
+  padding: 0px;
+  cursor: pointer;
 }
