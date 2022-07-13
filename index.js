@@ -5,9 +5,14 @@ function scrollToTop() {
   }
 
 //cookie
+
 function hideCookie() {
-      let cookie = document.querySelector('#cookie');
+      let cookie = document.querySelector('#innercookie');
       cookie.style = "display:none;";
+    }
+function showCookie() {
+      let cookie = document.querySelector('#innercookie');
+      cookie.style = "display:block;";
     }
 
 //slideshow
