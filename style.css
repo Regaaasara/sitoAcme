@@ -119,6 +119,7 @@ body {
     color: white;
     text-align: center;
     padding: 20px 30px;
+    border-radius: 10px;
 }
 
 .material-symbols-outlined {
@@ -356,6 +357,7 @@ footer {
   position: relative;
   background: rgba(243, 146, 0, 0.9);
   height: 200px;
+  border-radius: 10px;
 }
 
 /* Slides */
@@ -365,7 +367,7 @@ footer {
   text-align: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
+  font-size: 14pt;
 }
 
 /* Next & previous buttons */
