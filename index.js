@@ -4,18 +4,11 @@ function scrollToTop() {
     window.scrollTo(0, 0);
   }
 
-//pop up
-
-let popUp =
-document.getElementById("popup");
-
-function goUp() {
-    popUp.style = "bottom: -50px;";
-}
-
-function disappear() {
-  popUp.style = "display: none;";
-}
+//cookie
+function hideCookie() {
+      let cookie = document.querySelector('#cookie');
+      cookie.style = "display:none;";
+    }
 
 //slideshow
 
