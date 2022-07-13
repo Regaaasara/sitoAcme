@@ -410,8 +410,8 @@ footer {
   width: 200px;
   margin-left: 50px;
   padding: 20px;
-  display: block;
-  z-index: 60;
+  display: none;
+  z-index: 1;
 }
 
 #chiude{
