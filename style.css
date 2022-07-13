@@ -304,7 +304,7 @@ footer {
   position: fixed;
   width: 100px;
   cursor: pointer;
-  z-index: 60;
+  z-index: 1;
   background-color: rgb(179, 247, 232);
   color: rgb(0, 0, 0);
   border: 2px solid rgb(64, 151, 147);
