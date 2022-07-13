@@ -391,12 +391,17 @@ footer {
 
 #bottone {
   position: fixed;
-  bottom: 40px;
-  left: 10px;
-  width: 100px;
-  border-radius: 30px;
+  left: 0px;
   cursor: pointer;
   z-index: 60;
+  
+  height: 200px;
+  width: 90px;
+  bottom: -120px;
+  padding: 5px;
+  color: rgb(243, 146, 0);
+  display: block;
+  text-align: center;
 }
 
 #cookie{
@@ -414,20 +419,6 @@ footer {
   margin-left: 160px;
   padding: 0px;
   cursor: pointer;
-}
-
-.top {
-  color: white;
-  background-color: black;
-  padding: 0px 3px 0px 3px ;
-  border-radius: 100px;
-  position: fixed;
-  bottom: 40px;
-  right: 10px;
-  text-align: center;
-  cursor: pointer;
-  z-index: 60;
-  
 }
 
 #freccia.up{
