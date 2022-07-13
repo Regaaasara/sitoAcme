@@ -23,10 +23,14 @@ body {
   max-width: fit-content;
   padding: 100px 15px;
   margin: auto auto 20px auto;
-  height: 400px;
+  height: 600px;
   display: block;
   text-align: center;  
   }
+
+.boxlogo {
+  height: 400px;
+}
 
 .lingue {
     float: left;
