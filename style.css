@@ -296,6 +296,48 @@ footer {
     font-size: 13px;
 }
 
+
+
+
+
+#bottone {
+  position: fixed;
+  bottom: 40px;
+  left: 10px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  z-index: 60;
+}
+
+#cookie{
+  color: white;
+  font-size: 10px;
+  background-color: black;
+  width: 200px;
+  margin-left: 50px;
+  padding: 20px;
+  display: none;
+}
+
+#chiude{
+  font-size: 15px;
+  margin-left: 160px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #cookie1 {
     height: 200px;
     width: 90px;
