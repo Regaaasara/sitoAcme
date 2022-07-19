@@ -2,7 +2,6 @@ body {
   background-image: url('immagini/sfondo.jpg');
   background-attachment: fixed;
   background-size: cover;
-  background-size: 100%;  
   background-repeat: no-repeat;
   margin: 0px;
   background-position: center;
